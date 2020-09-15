@@ -15,7 +15,7 @@ In future it is planned to add user-view tab for recording man-hours for each pr
 
 ## Sample usage
 
-![](https://github.com/konopkagrzegorz/ToDoList/blob/master/todolist.gif)
+![]()
 
 ## Authors
 
