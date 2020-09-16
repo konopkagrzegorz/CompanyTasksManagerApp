@@ -19,6 +19,8 @@ In future it is planned to add user-view tab for recording man-hours for each pr
 
 ![](https://github.com/konopkagrzegorz/CompanyTasksManagerApp/blob/master/company_tasks_viewer_login.gif)
 
+* Register page
+
 ## Authors
 
 * [Grzegorz Konopka](https://github.com/konopkagrzegorz)
