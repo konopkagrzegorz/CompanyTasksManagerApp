@@ -15,7 +15,7 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("login.fxml"));
         primaryStage.setTitle("COMPANY TASKS VIEWER");
         primaryStage.setScene(new Scene(root, 600, 420));
-        primaryStage.getIcons().add(new Image("file:\\E:\\Program%20Files\\JavaFX\\CompanyTaskManagerApp\\src\\company_logo.png"));
+        primaryStage.getIcons().add(new Image("file:\\E:\\Program%20Files\\JavaFX\\CompanyTasksManagerApp\\src\\company_logo.png"));
         primaryStage.setResizable(false);
         primaryStage.show();
     }

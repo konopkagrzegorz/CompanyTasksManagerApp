@@ -77,7 +77,7 @@
             <Insets />
          </opaqueInsets>
          <children>
-            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: BOLD; -fx-rotate: 270; -fx-font-size: 3em;" text="COMPANY TASK VIEWER" textAlignment="CENTER" wrappingWidth="300.0">
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: BOLD; -fx-rotate: 270; -fx-font-size: 3em;" text="COMPANY TASKS VIEWER" textAlignment="CENTER" wrappingWidth="300.0">
                <VBox.margin>
                   <Insets left="-35.0" top="150.0" />
                </VBox.margin>
