@@ -17,7 +17,7 @@ In future it is planned to add user-view tab for recording man-hours for each pr
 
 * Login page
 
-![]()
+![](https://github.com/konopkagrzegorz/CompanyTasksManagerApp/blob/master/company_tasks_viewer_login.gif)
 
 ## Authors
 
