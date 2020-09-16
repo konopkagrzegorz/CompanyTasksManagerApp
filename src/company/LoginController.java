@@ -100,7 +100,7 @@ public class LoginController implements Initializable {
 
     @FXML
     public void openRegisterWindow(MouseEvent event) throws IOException {
-        Parent registerWindowParent = FXMLLoader.load(getClass().getResource("view/register.fxml"));
+        Parent registerWindowParent = FXMLLoader.load(getClass().getResource("register.fxml"));
         Scene registerWindowScene = new Scene(registerWindowParent);
         Stage register = (Stage) ((Node) event.getSource()).getScene().getWindow();
 
