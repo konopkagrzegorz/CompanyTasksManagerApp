@@ -585,6 +585,46 @@ public class AdminWindowController implements Initializable {
     }
 
     @FXML
+    public void searchSubProject(KeyEvent event) throws SQLException {
+        FilteredList<SubProject> filterData = new FilteredList<>(subProjectsTable, subProject -> true);
+        txtFieldsearchSubProject.textProperty().addListener((obsevable, oldValue, newValue) -> {
+            filterData.setPredicate(subProject -> {
+
+                if (newValue == null || newValue.isEmpty()) {
+                    return true;
+                }
+
+                String typedText = newValue.toLowerCase();
+
+                if (subProject.getPhaseID().toLowerCase().indexOf(typedText) != -1 ) {
+
+                    return true;
+                }
+                if (subProject.getSubProjectNumber().toLowerCase().indexOf(typedText) != -1) {
+
+                    return true;
+                }
+                if (subProject.getSubProjectName().toLowerCase().indexOf(typedText) != -1) {
+
+                    return true;
+                }
+                if (subProject.getProjectManager().toString().toLowerCase().indexOf(typedText) != -1) {
+                    return true;
+                }
+
+                if (subProject.getSubProjectStatus().toString().toLowerCase().indexOf(typedText) != -1) {
+                    return true;
+                }
+
+                return false;
+            });
+            SortedList<SubProject> sortedList = new SortedList<>(filterData);
+            sortedList.comparatorProperty().bind(subProjectsTableView.comparatorProperty());
+            subProjectsTableView.setItems(sortedList);
+        });
+    }
+
+    @FXML
     void loadPhaseData() throws SQLException {
         Connection connection = null;
         ResultSet rs = null;
