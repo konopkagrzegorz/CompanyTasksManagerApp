@@ -25,7 +25,7 @@ In future it is planned to add user-view tab for recording man-hours for each pr
 
 * Users database encryption example
 
-![](https://github.com/konopkagrzegorz/CompanyTasksManagerApp/blob/master/users_database.jpeg)
+![](https://github.com/konopkagrzegorz/CompanyTasksManagerApp/blob/master/users_database.JPG)
 
 ## Authors
 
