@@ -23,9 +23,9 @@ In future it is planned to add user-view tab for recording man-hours for each pr
 
 ![](https://github.com/konopkagrzegorz/CompanyTasksManagerApp/blob/master/company_tasks_viewer_register.gif)
 
-* * Users database encryption example
+* Users database encryption example
 
-![](https://github.com/konopkagrzegorz/CompanyTasksManagerApp/blob/master/users_database.jpg)
+![](https://github.com/konopkagrzegorz/CompanyTasksManagerApp/blob/master/users_database.jpeg)
 
 ## Authors
 
