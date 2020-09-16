@@ -29,6 +29,18 @@ In future it is planned to add user-view tab for recording man-hours for each pr
   <img src="https://github.com/konopkagrzegorz/CompanyTasksManagerApp/blob/master/users_database.JPG">
 </p>
 
+* Portfolio Manager Tab & Overview
+
+![](https://github.com/konopkagrzegorz/CompanyTasksManagerApp/blob/master/company_tasks_viewer_overview.gif)
+
+* Global Project Manager Tab
+
+![](https://github.com/konopkagrzegorz/CompanyTasksManagerApp/blob/master/company_tasks_viewer_gpn_tab.gif)
+
+* Project Manager Tab
+
+![](https://github.com/konopkagrzegorz/CompanyTasksManagerApp/blob/master/company_tasks_viewer_pm_tab.gif)
+
 ## Authors
 
 * [Grzegorz Konopka](https://github.com/konopkagrzegorz)
